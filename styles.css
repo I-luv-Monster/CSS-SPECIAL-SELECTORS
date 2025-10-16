@@ -1,0 +1,50 @@
+li:hover {
+    background-color: yellow;
+    font-style: italic;
+}
+
+
+
+li:active {
+    background-color: rgb(65, 0, 117);
+    font-size: 34px;
+}
+
+
+
+li::before {
+    content: "💜";
+}
+
+
+
+li:hover::after {
+    content: "Pick me!! PICK ME NOW I AM THE CHOSEN ONE!😠";
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+
+
+li:active::after {
+    content: "You were smart to choose me the chosen one"
+}
+
+
+
+li:active::before {
+    content: "😮‍💨"
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+
+
+li {
+    background-color: rgb(74, 63, 0);
+    cursor: wait;
+}

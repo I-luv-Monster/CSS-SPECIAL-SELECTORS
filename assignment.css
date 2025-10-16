@@ -13,3 +13,49 @@
 
 /* Add your CSS styles below this line */
 
+
+
+.card::before {
+    content:"Sale";
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-weight: bold;
+}
+
+div.card a {
+    background-color: rgb(255, 132, 0);
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 132, 0);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+div.card p::after {
+    content: " now $29";
+    color: rgb(255, 0, 0);
+}
+
+
+
+div.card a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 132, 0);
+    font-weight: bold;
+}
+
+
+
+div.card a:active {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
